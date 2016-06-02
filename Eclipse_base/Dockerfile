@@ -37,9 +37,9 @@ RUN mkdir -p /home/developer && \
     chmod 777 -R /home/developer && \
     chown root:root /usr/bin/sudo && chmod 4755 /usr/bin/sudo
 
-RUN wget http://mirrors.nic.cz/eclipse/technology/epp/downloads/release/mars/2/eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz -O /tmp/eclipse.tar.gz -q && \
-    echo 'Installing eclipse' && \
-    tar -xf /tmp/eclipse.tar.gz -C /opt 
+#RUN wget http://mirrors.nic.cz/eclipse/technology/epp/downloads/release/mars/2/eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz -O /tmp/eclipse.tar.gz -q && \
+#    echo 'Installing eclipse' && \
+#    tar -xf /tmp/eclipse.tar.gz -C /opt 
 #&& \
 #    rm /tmp/eclipse.tar.gz
 

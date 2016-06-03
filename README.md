@@ -11,7 +11,7 @@ Hi! This is a github repo for the automated Docker building of the following ima
 
 These are based on ubuntu 15.10, so pretty standard after all.
 
-##To get started on your computer
+## To get started on your computer
 
  1. install docker (https://docs.docker.com/engine/installation/)
  2. clone the repo (`git clone git@github.com:rafdouglas/eclipse_docker.git`)
@@ -40,7 +40,7 @@ You can see the complete line of packages here: https://eclipse.org/downloads/
 ----------
 
 
-*Hat tip to **Fabio Rehm** (https://github.com/fgrehm/docker-eclipse) for his git on version 4.4*, and for some tips. 
+*Hat tip to* **Fabio Rehm** (@fgrehm, https://github.com/fgrehm/docker-eclipse) *for his git on version 4.4*, and for some tips. 
 I include the following, which is often important:
 
 ## Help! I started the container but I don't see the Eclipse screen

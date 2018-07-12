@@ -1,4 +1,4 @@
-FROM rafdouglas/eclipse_docker:Eclipse_base
+FROM rafdouglas/eclipse_docker_base:wily
 
 #Hat Tip to fgrehm/docker-eclipse 
 

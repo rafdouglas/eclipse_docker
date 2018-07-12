@@ -1,6 +1,15 @@
-FROM ubuntu:15.10
-
+FROM ubuntu:18.04
+LABEL maintainer="RafDouglas"
 # Hat Tip to fgrehm/docker-eclipse
+
+LABEL org.label-schema.schema-version = "1.0"
+LABEL org.label-schema.version = "18.04"
+LABEL org.label-schema.description = "base image for Eclipse dockers"
+
+LABEL org.label-schema.url="http://rafdouglas.science"
+LABEL org.label-schema.vcs-url = "https://github.com/rafdouglas"
+LABEL org.label-schema.docker.cmd = "sh ./eclipse_run.sh"
+
 
 RUN sed 's/main$/main universe/' -i /etc/apt/sources.list && \
     apt-get update && apt-get install -y software-properties-common && \

@@ -1,15 +1,17 @@
 Eclipse dockers for developers
 ===================
-Eclipse Mars (version 4.5) dockers ready to go!
+Eclipse Photon (version 4.8) dockers ready to go!
 
 Hi! This is a github repo for the automated Docker building of the following images:
 
- - Eclipse (mars) base
+ - Eclipse (photon) base
  - Eclipse for JavaEE 
  - Eclipse for PHP 
  - Eclipse for C/C++ 
+ - Eclipse for Javascript
+ - Eclipse for Modeling
 
-These are based on ubuntu 15.10, so pretty standard after all.
+These are based on ubuntu 18.04 LTS
 
 ## To get started on your computer
 

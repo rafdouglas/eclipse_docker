@@ -9,7 +9,7 @@ docker run -ti --rm \
 	-v /tmp/.X11-unix:/tmp/.X11-unix \
 	-v $my_homedir:/home/developer/ \
 	-v $my_homedir/.eclipse-docker-photon:/home/developer \
-	rafdouglas/eclipse_docker:eclipse_photon_JavaEE
+	rafdouglas/eclipse_docker:eclipse_photon_FLAVOUR_NAME
 
 #	-v /usr/local/share/perl/5.20/:/usr/local/share/perl/5.20/ \
 #	-v /usr/lib/x86_64-linux-gnu/perl/:/usr/lib/x86_64-linux-gnu/perl/ \

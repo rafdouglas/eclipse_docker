@@ -7,7 +7,7 @@ mkdir -p $my_homedir/.eclipse-docker-photon
 docker run -ti --rm \
 	-e DISPLAY=$DISPLAY \
 	-v /tmp/.X11-unix:/tmp/.X11-unix \
-	-v $my_homedir:/home/developer/ \
+	-v $my_homedir:/mnt/ext_home/ \
 	-v $my_homedir/.eclipse-docker-photon:/home/developer \
 	rafdouglas/eclipse_docker:eclipse_photon_FLAVOUR_NAME
 

@@ -7,7 +7,7 @@ docker run -ti --rm \
 	-v /tmp/.X11-unix:/tmp/.X11-unix \
 	-v $my_homedir:/workspace \
 	-v $my_homedir/.eclipse-docker:/home/developer \
-	rafdouglas/eclipse_docker:Eclipse_base
+	rafdouglas/eclipse_docker:eclipse_base_bionic
 
 #	-v $HOME/.Xauthority:/home/developer/.Xauthority \
 #	--net=host \

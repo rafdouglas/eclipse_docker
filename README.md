@@ -9,7 +9,7 @@ Hi! This is a github repo for the automated Docker building of the following ima
  - Eclipse for PHP 
  - Eclipse for C/C++ 
 
-These are based on ubuntu 15.10, so pretty standard after all.
+These are based on ubuntu 16.04 LTS, so pretty standard after all.
 
 ## To get started on your computer
 

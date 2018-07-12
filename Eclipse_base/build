@@ -1,6 +1,0 @@
-my_eclipsedir=${HOME}'/.eclipse-docker'
-echo 'creating directory:'"$my_eclipsedir"
-mkdir -p "$my_eclipsedir"
-
-echo 'This will take a lot of time...'
-docker build -t rafdouglas/eclipse_docker:eclipse_base_bionic .

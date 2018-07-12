@@ -1,4 +1,4 @@
-FROM rafdouglas/eclipse_docker:eclipse_base_bionic
+FROM rafdouglas/eclipse_docker_base:bionic
 
 LABEL maintainer="RafDouglas"
 # Hat Tip to fgrehm/docker-eclipse

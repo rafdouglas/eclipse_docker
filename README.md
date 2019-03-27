@@ -1,3 +1,6 @@
+[![Image info](https://images.microbadger.com/badges/image/rafdouglas/eclipse_docker.svg)](https://hub.docker.com/r/rafdouglas/eclipse_docker "Click to view the image on Docker Hub")
+[![Docker pulls](https://img.shields.io/docker/pulls/rafdouglas/eclipse_docker.svg)](https://hub.docker.com/r/rafdouglas/eclipse_docker "Click to view the image on Docker Hub")
+
 Eclipse dockers for developers
 ===================
 Eclipse Photon (version 4.8) dockers ready to go!
